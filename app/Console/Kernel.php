@@ -51,8 +51,9 @@ class Kernel extends ConsoleKernel
              if($this->option('s')){
                 $this->info(FortuneHelper::get_short_message()." \n");
             }
-            if($this->option('o'))
-                $this->info("No fortunes found \n");
+            if($this->option('o')) {
+                $this->info(FortuneHelper::get_o_message()." \n");
+            }
             if(!(($this->option('l'))||($this->option('s')||($this->option('o'))))){
                 $this->info(FortuneHelper::get_short_message()."\n");
                 }

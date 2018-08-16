@@ -57,4 +57,47 @@ A:	Three.  One to report it as an inspired government program to bring
 '];
 print Arr::random($array);
 	}
+
+
+
+public static function get_o_message(){
+		$array = ['	"One day, I\'d like to wake up in the morning to find that every gay
+	and lesbian has lavender skin.  On that morning, I will be -- mauve."','"One day, I\'d like to wake up in the morning to find that every gay
+	and lesbian has lavender skin.  On that morning, I will be -- mauve."
+root@okello-Aspire-E1-571:/home/okello# fortune -o
+We will follow Zarathustra,		We will worship like the Druids,
+Zarathustra like we use to,		Dancing naked in the woods,
+I\'m a Zarathustra booster,		Drinking strange fermented fluids,
+And he\'s good enough for me!		And it\'s good enough for me!
+(chorus)				(chorus)
+
+In the church of Aphrodite,
+The priestess wears a see through nightie,
+She\'s a mighty righteous sightie,
+And she\'s good enough for me!
+(chorus)
+
+CHORUS:	Give me that old time religion,
+	Give me that old time religion,
+	Give me that old time religion,
+	\'Cause it\'s good enough for me!','mosquito, n.:
+	The state bird of New Jersey.','I\'m having an emotional outburst!!','He used to kiss her on her lips, but it\'s all over now.','If you remember the 60\'s, you weren\'t there.','We are going to give a little something, a few little years more, to
+socialism, because socialism is defunct.  It dies all by itself.  The bad
+thing is that socialism, being a victim of its ... Did I say socialism?
+		-- Fidel Castro','France is a country where the money falls apart and you can\'t tear
+the toilet paper.
+		-- Billy Wilder','"One does not have to appeal to God to set the initial conditions
+ for the creation of the universe, but if one does He would have
+ to act through the laws of physics."
+        [Stephen Hawking, "Black Holes & Baby Universes"]','Militant agnostic: I don\'t know, and you don\'t either.','"Not only were a good many of the revolutionary leaders more deist than
+ Christian, the acutal number of church members was rather small. Perhaps
+ as few as five percent of the populace were church members in 1776"
+    [Lynn R. Buzzard, Exec Dir of Christian Legal Society, as quoted in
+     _They Haven\'t Got a Prayer_, Elgin IL: David C. Cook, 1982, p. 81]'];
+print Arr::random($array);
+	}
+
+
+
+
 }
